@@ -1,0 +1,1136 @@
+prt_fild06 127 85 Ache Crisálidass#33
+cmd_fild07 250 98 Vendedor de Armas
+cmd_fild07 136 134 Funcionária Kafra
+comodo 195 150 Funcionária Kafra
+comodo 204 148 Devellin
+comodo 210 154 Cara Suspeito
+comodo 210 148 Quadro de Avisos#comodo
+comodo 211 155 Bardo Andarilho
+comodo 202 151 Oficial do Éden#17
+comodo 193 151 Bor Roben#1
+comodo 196 162 Harive#candyseller
+comodo 187 153 Hullaris
+cmd_fild07 192 58 Ramadi
+comodo 170 137 Raede
+comodo 171 137 Heis
+comodo 180 153 Snowtora#1
+prontera 146 89 Funcionária Kafra
+prontera 141 97 Mulher Bondosa#job_min
+comodo 322 178 Guia Turístico
+comodo 236 164 Garota Fashion#Hair_Bru
+comodo 228 159 Garota
+comodo 225 164 Cozinheiro Auxiliar
+comodo 219 158 Kachua
+payon 179 66 Dasa#09tuto_rhea07
+payon 176 85 Jovem Senhor
+payon 159 96 Vendedor de Ferramentas
+payon 166 102 Soldado
+payon 181 104 Funcionária Kafra
+payon 166 106 Engenheiro Mecatrônico#
+payon 178 108 Quadro de Avisos#payon
+payon 186 104 Dona Risadinha
+payon 177 111 Oficial do Éden#12
+moc_fild12 151 372 Árvore#ep14.3_09
+moc_fild12 166 370 Árvore#ep14.3_10
+moc_fild12 276 165 Rastros de Batalha#3
+moc_fild11 39 163 Rastros de Batalha#4
+payon 189 105 Emissária de Maroll
+moc_para01 22 16 Catalogador Mágico#cata
+moc_para01 44 19 Agente Pata de Gato#gek
+moc_para01 41 22 Kafra dos Biscoitos#GM
+moc_para01 32 30 Spikle#Tuto
+moc_fild20 368 197 Gato#to22
+moc_fild22b 182 179 Agente Tat#Tat
+mid_camp 210 292 Portal da Fissura#gate0
+mid_camp 207 290 Guia da Fissura#gk01
+mid_camp 212 290 Guia da Fissura#gk02
+mid_camp 209 286 Mensageiro#edq3
+mid_camp 222 283 Marian#ep13bs
+mid_camp 240 270 Botânico#ep13
+mid_camp 255 269 Lenha Úmida#moc2_campfi
+mid_camp 256 272 Defaria#moc2
+mid_camp 247 255 Hue#ep131_rhea02
+mid_camp 255 244 Galfos
+mid_camp 283 198 Bazett#ep13bs
+mid_camp 336 171 Capitão do Acampamento#
+man_fild01 43 234 Membro do Grupo do Éden
+man_fild01 59 261 #evt_lumis
+man_fild01 70 246 Rocha Misteriosa#8
+man_fild01 80 248 Alberto#ep13bs
+man_fild01 64 197 Rocha Misteriosa#9
+morocc 240 72 Hans
+prontera 114 77 Dolangmal#Pron
+prontera 107 65 Encantador Diabólico#pr
+prontera 110 64 Mestre Arcanjo#new10
+prontera 122 67 Ferreiro Certeiro#im
+prontera 148 49 Quadro de Avisos#pron
+prontera 155 49 Karian#cmd9
+prontera 155 42 #prtjm1
+prontera 155 44 #prtjm2
+prontera 155 46 #prtjm3
+prontera 155 40 #jmprt1
+prt_fild08 159 371 Emissário Poring#wop
+prt_fild08 175 374 Bardo#brising
+prt_fild08 299 332 Ache Jellopy#33
+prt_fild07 76 122 Ache Perna de Gafanhoto
+moc_fild20 203 336 Guarda Continental#41_e
+moc_fild20 215 336 Guarda Continental#42_e
+moc_fild20 354 183 Continental Guard#11_ed
+mid_camp 238 250 Cavaleiro Rúnico Sábio
+man_fild01 170 318 Rocha Misteriosa#5
+man_fild01 118 238 Rocha Misteriosa#7
+man_fild01 92 230 Árvore Congelada#evt_lu
+man_fild02 285 115 Rocha Misteriosa#37
+man_fild02 346 116 Rocha Misteriosa#38
+man_fild02 146 81 Rocha Misteriosa#31
+man_fild02 135 49 Gato do Teleporte No.5
+man_fild02 132 47 Ag. Pata de Gato
+manuk 103 354 Galtun Manuko#door1
+manuk 122 354 Galtun Manuko#door2
+manuk 99 334 Piom Manuko#tre1
+manuk 103 311 Piom Manuko#tre2
+manuk 107 233 Soldado#ep13pa0829
+manuk 169 260 Phiom
+manuk 188 216 Benknee
+manuk 183 185 Phiom
+manuk 218 163 Kalton
+manuk 251 180 Jovem Camponês#ep13bs
+manuk 253 173 Benknee Manuko#tre5
+manuk 278 177 Camponês#ep13_11
+manuk 281 177 Camponês#ep13_12
+manuk 304 195 Soldado#ep13pa0829
+manuk 321 182 Controlador Garton#ep13
+dic_dun01 30 216 Vigilante#ep133_26
+dic_dun01 58 225 Lash#13_3
+dic_dun01 64 107 Bain#13_3
+dic_dun01 153 107 Tyler#13_3
+dic_dun01 266 113 Manuk Curioso#seller
+dic_dun01 274 114 Pilha de Caixas
+dic_dun01 284 102 Vigilante Sujo#ep13_3
+dic_dun01 286 104 Vigilante#ep133_23
+mid_camp 264 263 Diego#ep13bs
+man_fild01 146 269 Rocha Misteriosa#6
+man_fild01 315 95 Batedor
+man_fild01 92 155 Rocha Misteriosa#4
+man_fild01 180 170 Rocha Misteriosa#1
+man_fild01 114 174 Rocha Misteriosa#3
+man_fild02 241 227 Rocha Misteriosa#40
+mid_camp 213 286 Guarda da Expedição
+man_fild02 146 365 Rocha Misteriosa#34
+man_fild02 140 148 Rocha Misteriosa#32
+man_fild01 147 157 Rocha Misteriosa#2
+dic_dun01 294 106 Vigilante#ep133_23
+man_fild02 358 174 Rocha Misteriosa#39
+man_fild02 336 305 Rocha Misteriosa#35
+man_fild02 248 124 Rocha Misteriosa#36
+mora 100 118 Vendedor de Ferramentas
+mora 98 104 Rafflen Agitado#podo
+mora 101 107 Rafflen Empolgado#podo
+mora 99 100 Chamariz#podo
+mora 102 107 Rafflen Aliviado#podo
+mora 103 100 Rafflen Espantado#podo
+mora 105 104 Fanfarrão#podo
+mora 105 100 Rangrang#p
+mora 106 117 Criador de Aljavas#mora
+mora 65 145 Pitt#pa
+mora 55 124 Jones
+mora 52 138 Mungmung#p
+mora 48 128 Drawer#Mora Warehouse
+mora 43 127 Atendente#mora_inn
+mora 115 98 Hotcha#pa0829
+mora 119 103 Chow-chow#pa0829
+mora 119 118 Artigos Diversos#pa0829
+mora 124 108 Labrador#pa0829
+mora 127 112 Negociante Mercadora#pa
+rachel 106 134 Engenheiro Mecatrônico#
+rachel 109 138 Corp. Ev. Incríveis
+rachel 106 130 Soldado de Rachel
+rachel 121 126 dolangmal#rachel
+rachel 124 132 Cidadão#1
+rachel 124 120 Mardol
+rachel 124 130 Vanadis
+rachel 125 144 Oficial do Éden#16
+rachel 31 130 Guarda de Rachel
+man_fild02 88 263 Rocha Misteriosa#33
+rachel 127 117 Criança Devota#2
+rachel 132 117 Rhehe Ravies#god_se_fes
+rachel 142 136 #em_end
+rachel 152 131 Sakjul
+rachel 197 137 Bardo#aru
+rachel 268 120 Guarda de Rachel
+ra_fild12 45 230 Guia do Aeroplano#fild
+ra_fild04 66 187 Túmulo
+ra_fild03 202 175 Túmulo
+ra_fild03 139 355 Ishmael#em
+rachel 149 138 Emissária de Maroll
+yuno 153 113 Quadro de Avisos#juno
+yuno 165 122 Dolangmal#Yuno
+yuno 165 111 Sábia de Juno
+yuno 157 87 Cidadã de Juno
+yuno 153 47 Guia de Juno
+yuno_fild03 37 143 Quadro de Avisos#noggro
+rachel 135 131 Gefn
+rachel 136 120 Syr
+yuno 146 168 Karian#cmd2
+yuno 143 170 Sr. Click#job_min
+yuno 152 187 Funcionária Kafra
+yuno 163 187 Vendedora M?ica
+yuno 144 189 Oficial do Éden#15
+yuno 153 191 Funcionário de Votação 
+yuno 162 191 Funcionária de Votação 
+mid_camp 267 258 Poste#ep13bs2
+yuno_fild04 165 245 Rapaz Sinistro#lt
+ra_fild04 189 360 Túmulo
+rachel 138 126 Horn
+yuno 164 200 Noyee#G
+yuno 167 187 Engenheiro Mecatrônico#
+ra_fild04 198 94 Túmulo
+prontera 105 66 Estilista Especial
+prontera 103 65 Piercing Brosnan#pa0829
+prontera 124 76 Oficial do Éden#1
+prontera 123 83 Emissária de Maroll
+prontera 105 87 Vendedora
+prontera 123 102 Mercador#pron
+prontera 106 116 Mulher
+prontera 147 125 Funcionário de Votação 
+prontera 160 133 Yuni
+prontera 164 125 Funcionária de Votação 
+prontera 162 166 Valquíria Ajudante#arch
+prontera 163 178 Engenheiro Mecatrônico
+prontera 157 187 Dona Risadinha
+prontera 184 177 Mestre do Refino
+prt_in 63 69 Dietrich
+prt_in 56 68 Vurewell
+prt_in 63 60 Hugo
+prt_in 52 56 Ferreiro Magnífico#prt
+prt_in 63 54 Restaurador
+gef_fild10 69 340 Quadro de Avisos#orcdun
+gef_fild10 73 340 Funcionária Kafra
+in_orcs01 38 175 Absalom#para07
+mid_camp 267 263 Poste#ep13bs1
+mid_camp 206 286 Mensageiro
+ra_fild04 346 82 Túmulo
+ra_fild04 154 123 Túmulo
+prt_in 128 79 Máquina Misteriosa#prt_
+prontera 146 232 Hipnotizadora#2
+prontera 146 218 Mulher#job_min
+prontera 130 213 Domador de Feras
+prontera 143 203 Brynhildr
+prontera 149 202 Gabiroba
+prontera 146 194 Hrist
+prontera 149 191 Funcionária Kafra
+geffen 109 61 dolangmal#geffen
+geffen 103 55 Engenheiro Mecatrônico#
+geffen 111 48 Senhora
+geffen 119 48 Fonte#s
+geffen 109 66 Emissária de Maroll
+geffen 120 62 Funcionária Kafra
+geffen 124 65 Quadro de Avisos#geffen
+geffen 100 55 Domador de Feras
+geffen 90 67 Equipe de Promoções
+geffen 67 87 Ayeepu
+geffen 63 70 Tetsu#gungun
+gef_fild05 80 149 Myu#08_hat
+gef_fild05 111 96 Ache Pó de Borboleta#33
+alberta 119 70 Funcionária de Votação 
+alberta 114 70 Funcionário de Votação 
+alberta 113 60 Kafra Recepcioniosta
+alberta 113 53 Dona Risadinha
+alberta 111 59 Quadro de Avisos#albert
+alberta 91 70 Comedor de Porcarias
+alberta 58 80 Mercador
+alberta 45 106 Garotinho
+alberta 62 156 Phina
+alberta 35 241 Sinal
+alberta 43 244 Turista#thai
+alberta 28 229 Funcionária Kafra
+alberta 26 229 Funcionário Kafra
+payon 103 63 Gaeho
+payon 91 77 Mercador de Bolsas
+payon 82 109 Pilha de Pedras#paypuzz
+geffen 117 37 Funcionário de Votação 
+geffen 122 37 Funcionária de Votação 
+geffen 103 42 Hector#09tuto_rhea02
+geffen 132 38 Bardo#2
+geffen 136 55 Valquíria Obscura#new10
+geffen 132 66 Oficial do Éden#3
+geffen 122 77 Nia#yagu
+aldebaran 170 104 Dolangmal#alde
+aldebaran 165 107 Cozinheiro Auxiliar
+aldebaran 152 97 Sirius
+aldebaran 149 97 Astrum
+aldebaran 146 106 Quadro de Avisos#alde
+aldebaran 146 109 Emissária de Maroll
+aldebaran 145 102 Funcionária de Votação 
+aldebaran 134 97 Canopus
+aldebaran 139 63 Soldado
+aldebaran 152 63 Mercador#alde
+mjolnir_12 199 370 #mj12_find_1
+aldebaran 143 119 Funcionária Kafra
+aldebaran 138 102 Funcionário de Votação 
+geffen 173 88 Mercador#geff
+geffen 178 72 Akkie
+geffen 196 111 Cozinheiro Auxiliar
+geffen 181 114 Dupon
+geffen 203 123 Funcionária Kafra
+mid_camp 203 286 Mensageiro#edq2
+mid_camp 184 263 Peças para M.E.C.H.A.
+mid_camp 179 258 Ford#pa0829
+mid_camp 188 254 Monstrólogo#ep13
+mid_camp 192 239 Procurados#ep13_2ect01
+mid_camp 173 257 Shelby#pa0829
+mid_camp 166 248 Mago#ep13bs
+mid_camp 165 245 Ryosen#ep131_rhea01
+mid_camp 148 222 Theore
+mid_camp 49 154 #env_clear
+mid_camp 45 148 Botânico#ep13_1
+mid_camp 52 148 Terra#ep13
+mid_camp 13 138 Cavaleiro Rúnico Despac
+mid_camp 13 143 Guarda do Acampamento#m
+spl_fild02 377 149 Membro do Grupo do Éden
+spl_fild02 261 323 Arbusto#ep14_1_bs3
+spl_fild02 295 368 Batedor
+spl_fild02 304 151 Árvore#ep13bs4
+spl_fild01 170 74 Peixes#30
+spl_fild01 341 109 Arbusto#ep13_mdplant05
+spl_fild01 312 79 Arbusto#ep13mdf02
+spl_fild01 55 269 Peixes#28
+spl_fild01 317 361 Peixes#27
+spl_fild01 332 131 Peixes#29
+spl_fild01 41 118 Peixes#26
+spl_fild01 375 109 to_dun01#ep13_mdplant06
+spl_fild01 361 327 Cavaleiro Rúnico Despac
+spl_fild01 329 29 Arbusto#ep13mdf03
+spl_fild01 357 44 Arbusto#ep13mdf01
+spl_fild02 329 191 Arbusto#ep13_mdplant03
+spl_fild02 27 218 Jóia Enterrada#ep132_rh
+spl_fild02 314 165 Cardume#1
+spl_fild02 79 104 Arbusto#ep14_1_bs1
+spl_fild02 122 106 Arbusto#ep13_mdplant02
+mid_camp 197 237 Engenheiro Mecânico#ep1
+spl_fild02 328 323 Arbusto#ep13_mdplant04
+spl_fild02 232 145 Árvore#ep13bs2
+morocc 143 63 Maltrapilho#nd
+morocc 156 70 Garota#sc00
+morocc 156 97 Funcionária Kafra
+morocc 161 97 Oficial do Éden#29
+izlude 94 98 Vendedora de Frutas
+izlude 105 99 Açougueiro
+izlude 105 92 Vendedor de Leite
+izlude 134 88 Funcionária Kafra
+izlude 134 98 Oficial do Éden#30
+aldebaran 133 112 Engenheiro Mecatrônico#
+aldebaran 133 108 Soldado
+payon 200 106 dolangmal#payon
+payon 215 102 Moohyun#job_star
+payon 214 79 Talpiz#BLS
+spl_fild02 137 305 Arbusto#ep14_1_bs4
+pay_fild08 188 153 Ache Esporo de Cogumelo
+pay_fild08 218 283 Homem
+pay_fild07 269 164 Ache Patas de Urso#33
+pay_fild07 83 89 Zoólogo#09tuto_rhea04
+einbech 172 113 Nemuk
+einbech 180 136 Quadro de Avisos#einbec
+einbech 176 125 Ellhenje
+einbech 149 154 Mjunia
+einbech 97 167 Cavitar
+einbech 90 214 Quadro de Avisos#einbec
+einbech 105 218 Gushenmu
+einbech 93 139 Raust
+einbech 77 105 Quadro de Avisos#einbec
+einbech 53 94 Árvore#ein-4
+einbech 67 37 Guia
+mid_camp 30 168 Gerard#ep13bs
+spl_fild02 183 235 Árvore#ep13bs5
+spl_fild02 186 260 Arbusto#ep14_1_bs6
+morocc 155 109 #brick_or
+morocc 148 109 #rope_or
+morocc 148 112 Artesão
+morocc 152 110 Quadro de Avisos#morroc
+morocc 162 109 #wood_or
+morocc 155 112 Pedreiro
+morocc 162 112 Marceneiro
+morocc 159 113 Chefe Balrog
+morocc 134 111 Bardo#3
+morocc 161 117 Supervisor de RH#siro
+morocc 132 111 Garotinha#Jorti
+morocc 176 103 Guarda Continental
+morocc 55 67 Pedreiro
+morocc 53 87 Vigia da Prisão#sch
+morocc 50 67 Pilha de Tijolos#1
+morocc 50 75 Gestor de RH#brick
+morocc 45 103 #prtcurse
+morocc 43 108 Garoto Esperto#dan_07
+moc_fild19 107 101 Quadro de Avisos#sphinx
+einbech 133 114 Quadro de Avisos#einbec
+einbech 181 127 Quadro de Avisos#einbec
+einbech 181 132 Funcionária Kafra#ein3
+einbech 165 105 Buender Hikeman#ein
+mid_camp 147 256 Mago de Rune-Midgard#ep
+morocc 35 174 Meidi
+in_sphinx2 13 163 Estátua de Pedra#1
+in_sphinx2 212 267 Caixão Velho#2
+moc_fild20 349 179 Guarda da Fenda
+moc_fild20 354 174 Guarda Continental#12_e
+payon 159 129 Piso de Madeira#paypuzz
+payon 157 141 Fênix
+payon 143 143 Jovem#pay
+payon 166 161 Palácio da Colina
+payon 143 165 Restaurador
+payon 154 170 Hagin
+payon 140 151 Seiyablem#pay
+payon 144 173 Antonio
+payon 137 178 Shakim
+payon 145 178 Becknahd
+payon 166 165 Palácio Escarlate
+payon 177 131 Adestrador
+payon 182 132 Grout'he Tuccok#hellion
+spl_fild02 380 197 Árvore#ep13bs3
+spl_fild02 13 241 #Barricade1
+izlude 94 98 Vendedora de Frutas
+izlude 105 99 Açougueiro
+izlude 105 92 Vendedor de Leite
+izlude 134 88 Funcionária Kafra
+izlude 134 98 Oficial do Éden#30
+aldebaran 133 112 Engenheiro Mecatrônico#
+spl_fild02 45 214 Arbusto#ep13_mdplant01
+in_sphinx2 259 213 Caixão Velho#1
+payon 115 131 KoneKone
+payon 123 109 Vendedora de Armadilha
+spl_fild02 348 76 Árvore#ep13bs1
+spl_fild02 321 169 Cardume#2
+spl_fild02 326 171 Cardume#3
+spl_fild02 103 344 Arbusto#ep14_1_bs2
+spl_fild02 53 242 Gato do Teleporte No.3
+spl_fild02 23 196 Arbusto#ep14_1_bs5
+spl_fild02 25 211 Ag. Pata de Gato
+mid_camp 235 250 Sábio Serpeone
+spl_fild02 34 223 Pequena Fada#spl
+prontera 146 98 Kafra Especial#pRO_prem
+prontera 146 93 Agente VIP
+yuno 147 187 Kafra Especial#pRO_Prem
+yuno 149 187 Agente VIP
+morocc 160 97 Kafra Especial#pRO_Prem
+prt_in 244 135 Estalajadeira
+prt_in 251 129 Maos
+prt_in 234 133 Nami
+morocc 60 42 Jovem#moc
+morocc 50 65 Pilha de Tijolos#6
+morocc 48 67 Pilha de Tijolos#2
+morocc 48 65 Pilha de Tijolos#7
+morocc 46 67 Pilha de Tijolos#3
+morocc 46 65 Pilha de Tijolos#8
+morocc 27 112 Wickebine#BLS
+in_sphinx2 13 146 Estátua de Pedra#2
+prontera 155 48 #prtjm4
+prontera 151 29 Funcionária Kafra
+payon 69 65 Kimeunbang
+pay_gld 91 239 Palácio do Sol
+pay_gld 125 236 Palácio do Sol
+pay_gld 116 233 Palácio do Sol
+yuno 130 173 Cozinheiro Auxiliar
+dic_dun03 44 95 Túmulo
+payon 184 102 Agente VIP
+payon 190 104 Kafra Especial#pRO_Prem
+prt_in 61 141 Estalajadeira
+prt_in 56 140 Narrador do PVP
+prt_in 52 140 Porteiro do PVP
+prontera 197 188 Beeyo
+payon 166 169 Palácio da Sombra
+prontera 155 190 Kriemhild
+yuno 111 175 Vidblainn
+yuno 112 179 Hljod
+yuno 114 183 Skatyrnir
+yuno 118 192 Rmimi Ravies#god_se_fes
+dic_dun03 41 117 Túmulo
+dic_dun03 60 180 Túmulo
+pay_fild01 152 171 Ache Resina#33
+dic_dun01 235 243 John#13_3
+dic_dun01 205 43 Brian#13_3
+dic_dun01 235 243 John#13_3
+dic_dun03 113 142 Túmulo
+dic_dun03 83 208 Túmulo
+dic_dun03 81 159 Túmulo
+mid_camp 242 238 Soldado de Midgard 
+prontera 165 60 Aprendiz de Encantament
+prontera 163 53 Equipe de Promoções
+prontera 104 49 Vendedora de Frutas
+prontera 113 42 Florista Mell
+prontera 99 64 Mister Peso#im
+prontera 101 65 Mestre dos Slots#pa0829
+aldebaran 160 115 Buzzy Bol Machine#01
+aldebaran 146 116 Agente VIP
+aldebaran 146 124 Menina
+alde_dun03 264 16 Gatekeeper
+c_tower2 170 9 Ache Chifres Malignos#3
+moc_para01 36 38 Solicitações [11 - 25]#
+moc_para01 27 35 Secretária Lenore#eden
+moc_para01 25 35 Instrutora Boya#para01
+moc_para01 38 38 Solicitações [26 - 40]#
+moc_para01 40 38 Solicitações [41 - 55]
+moc_para01 47 39 #warp_2_pass
+mid_camp 242 243 Engenheiro Mecatrônico#
+morocc 180 259 Mercador#morroc
+morocc 164 255 Agente VIP
+morocc 160 258 Funcionária Kafra
+morocc 138 238 Pilha de Trapos#ep14bs
+morocc 191 94 Vendedora de Ervas
+aldebaran 137 119 Kafra Especial#pRO_Prem
+aldebaran 133 119 Oficial do Éden#5
+yuno 129 156 Luc Tomwa
+prontera 78 150 Darlene
+prontera 73 140 Vendedor de Leite
+prontera 58 182 Florista Jess
+prontera 58 217 Valquíria Ajudante#rune
+prontera 29 207 Funcionária Kafra
+mjolnir_09 306 36 #mj09_find_4
+mjolnir_09 369 279 #mj09_find_5
+mjolnir_10 75 22 #mj10_find_4
+morocc 40 190 Tia do Lanche#ep14_3
+morocc 43 191 Quadro de Avisos#moc_re
+payon 210 110 Arqueiro Alterado
+payon 200 113 Guarda Continental#payo
+yuno 110 171 Andlangr
+yuno 157 205 Artesão de Juno
+yuno_in01 25 34 Vendedor de Ferramentas
+yuno_in01 17 30 Weigon
+payon 181 172 Bardo#4
+payon 192 176 Gooho Ahn
+dic_dun03 182 87 Túmulo
+dic_dun03 86 197 Túmulo
+dic_dun03 87 214 Túmulo
+dic_dun03 204 35 Túmulo
+mid_camp 218 250 Mysterious Man#ep133_lo
+payon 153 182 Funcionário de Votação 
+dic_dun03 61 144 Túmulo
+dic_dun03 56 50 Túmulo
+payon 209 127 Servo
+payon 200 134 Mercador#pay
+payon 206 119 Cozinheiro Auxiliar
+dic_dun03 69 53 Túmulo
+dic_dun03 68 61 Túmulo
+dic_dun03 75 192 Túmulo
+geffen 135 53 Kafra Especial#pRO_prem
+geffen 127 64 Buzzy Bol Machine#01
+mjolnir_06 275 50 #mj06_find_2
+mjolnir_06 371 78 #mj06_find_3
+mjolnir_07 26 78 #mj07_find_5
+moc_fild20 189 21 Guarda Continental#31_e
+moc_fild20 200 21 Guarda Continental#32_e
+dic_dun03 83 178 Túmulo
+dicastes01 193 191 Agente VIP
+dicastes01 189 191 Traveler Ichack#info
+dicastes01 211 178 Moltuka#pa0829
+dicastes01 202 197 Venknick, o Louco#fihsi
+dicastes01 187 200 Soldado de El Dicastes
+dicastes01 191 202 Garton Reclamão#fihsing
+dicastes01 187 207 Engenheiro Mecatrônico#
+dicastes01 175 217 Kalipo#pa0829
+dicastes01 187 230 Laponte#pa0829
+dicastes01 194 166 Garton Exaltado#a
+dicastes01 193 86 Sentinela#b
+dicastes01 202 86 Sentinela#a
+dic_fild01 161 266 Gato do Teleporte No.6
+dic_fild01 146 281 Capital Guard#ep133_10
+dic_fild01 153 281 Capital Guard#ep133_10
+dic_fild01 232 189 Agente Pata de Gato#04p
+dic_fild01 259 172 Brare#pa0829
+dic_fild01 228 159 Jahbong#pa0829
+dic_fild01 231 174 B. K.#ep133_18
+dic_fild01 251 183 Mancho#pa0829
+dic_fild01 240 198 Jalapeño#pa0829
+pay_gld 321 298 Palácio da Sombra
+pay_gld 208 268 Palácio da Colina
+pay_gld 199 268 Palácio da Colina
+moc_para01 16 22 Velho Aventureiro#eden
+moc_para01 20 35 Assistente do Escritóri
+moc_para01 23 35 Instrutor Uru#2nd01
+mora 152 97 Guardiã do Poder#pa0829
+mora 148 98 Curadora de Artefatos#n
+mora 139 102 Humming
+mora 138 110 Mora Chef
+mora 130 96 Viajante Relaxando#ep14
+mora 122 97 Rafflen Relaxando#ep14_
+mora 113 112 Agente VIP
+prontera 73 134 Vendedor de Leite
+yuno 109 167 Himinn
+yuno 111 156 Euslan#02
+yuno 226 107 Vendedor de Ferramentas
+yuno 218 97 Vendedor de Ferramentas
+yuno 217 114 Criança#kh
+yuno 222 116 Kasis#crunch
+yuno 208 164 Garota Agitada
+yuno 184 173 Cidadão de Juno
+yuno 179 174 Bunz
+yuno 171 187 Soldado de Juno
+yuno 227 292 Soldado de Juno
+yuno 213 298 Eschealla
+yuno 165 283 Soldado de Juno
+yuno 150 283 Soldado de Juno
+yuno 150 228 Soldado de Juno
+yuno 165 228 Soldado de Juno
+yuno 263 320 Soldado de Juno
+yuno 205 103 Vendedor de Armas
+yuno 197 114 Adestradora
+yuno 334 182 Soldado de Juno
+yuno 327 108 Funcionária Kafra
+yuno 330 100 Cavaleiro#ss
+yuno 257 140 Vovó Estranha
+yuno 250 132 Velha Senhora#kh
+y_airport 143 43 Assistente do Aeroporto
+y_airport 143 49 Assistente do Aeroporto
+y_airport 145 63 Aux. Vôos Domésticos#y_
+y_airport 158 43 Assistente do Aeroporto
+yuno 311 195 Historiador#prt01
+yuno 300 188 Jamput
+yuno 261 99 Ichealla
+yuno_in01 99 101 Doutora
+yuno_in01 104 94 vá embora!
+yuno 277 221 Funcionária Kafra
+yuno 337 227 Vovó de Juno
+yuno 328 239 Lutador Marcial
+yuno 88 263 Assistente do Aeroplano
+airplane 236 63 Hoi#yusa
+airplane 238 54 Aventureiro
+einbroch 94 267 Assistente do Aeroplano
+airport 143 43 Assistente do Aeroporto
+airport 126 43 Assistente do Aeroporto
+airport 143 49 Assistente do Aeroporto
+airport 148 41 Gerente do Trem de Carg
+airport 158 43 Assistente do Aeroporto
+einbroch 76 202 Kafra Especial#pRO_Prem
+einbroch 72 202 Guia#ein
+einbroch 68 206 Quadro de Avisos
+einbroch 82 199 Remador Profissional#ei
+einbroch 104 202 Quadro de Avisos#einbro
+einbroch 122 250 Peças para M.E.C.H.A.
+einbroch 162 256 Quadro de Avisos#einbro
+einbroch 162 317 Guia
+yuno 343 68 Poder supremo de Juno
+yuno 336 203 #garas_catch
+yuno 343 204 #garas_eff
+yuno 335 208 Cão#garas
+yuno 305 207 Shichealla
+airplane 250 58 Assistente do Aeroplano
+airplane 240 64 Saída#airplane1a
+airplane 247 64 Saída#airplane1b
+hugel 189 143 Jovem#hg
+hugel 196 164 El Schatt#hg
+hugel 198 169 #hgTree
+hugel 191 172 Manainne#hg
+hugel 169 112 Velha Nikki#hg
+hugel 147 103 Ghenirhemin
+hugel 107 67 Torpy
+manuk 256 143 Kalton
+manuk 245 124 Phiom
+hu_fild06 190 367 Mãe do Torpy
+manuk 286 147 Phiom
+moc_para01 44 38 Solicitações [71 - 85]
+moc_para01 42 38 Solicitações [55 - 70]
+manuk 225 129 Benknee
+manuk 256 143 Kalton
+manuk 245 124 Phiom
+manuk 286 147 Phiom
+manuk 225 129 Benknee
+morocc 52 197 Caixa Registradora#ep14
+morocc 50 197 Contador#ep14_3
+morocc 57 196 Encarregado de Obras
+morocc 47 193 Centurião Van#ep14_3
+morocc 50 188 Arquiteto
+pay_gld 206 189 Gerente do Portal#pay_f
+pay_gld 203 189 Phecda
+pay_gld 200 189 Placa de Investimento#f
+pay_gld 198 178 Instrutor: Bosque Celes
+pay_gld 196 176 ClickClick MiauMiau-GX#
+pay_gld 153 166 Palácio Escarlate
+pay_gld 271 163 Palácio do Lago Sagrado
+pay_gld 187 294 Palácio da Colina
+prontera 125 208 Soldado
+dic_dun03 130 66 Túmulo
+morocc 42 73 Chefe dos Pedreiros#ep1
+morocc 40 72 Mímico Irritado#ep14_3
+payon 157 54 Anciã Infeliz#pa0829
+payon 161 54 Mercador Infeliz#pa0829
+payon 161 50 Servo Infeliz#pa0829
+mjolnir_10 201 355 #mj10_find_1
+mjolnir_05 219 375 #mj05_find_2
+mjolnir_12 220 37 #mj12_find_3
+aldebaran 131 97 Rigel
+aldebaran 142 128 Karian#cmd8
+aldebaran 135 128 Guarda Continental#alde
+aldebaran 140 130 #jmcodmodososi3
+aldebaran 136 133 Quadro de Avisos#clockt
+aldebaran 136 135 Dona Risadinha
+aldebaran 143 136 Guardião do Sino#A
+aldebaran 127 138 Equipe de Promoções
+aldebaran 132 184 Garota#prince
+aldebaran 117 181 Juliano
+aldebaran 121 231 Estudante de Alquimia
+aldebaran 144 230 Jeanbai
+prt_fild05 303 169 Ache Pele de Verme#33
+prt_fild05 270 212 Encarregado dos Esgotos
+prt_fild05 278 220 Quadro de Avisos#sewer
+prt_fild05 290 221 Vendedor de Ferramentas
+prt_fild05 290 224 Funcionária Kafra
+yuno_fild07 208 175 jupe_entrance
+mjolnir_09 99 100 Ache Ferrão de Abelha#3
+mjolnir_09 85 129  #3
+mjolnir_09 87 129 Berling#1
+mjolnir_10 272 20 #mj10_find_3
+aldebaran 128 97 Acrux
+mjolnir_10 188 260 #mj10_01
+mjolnir_05 82 171 #mj05_find_1
+mjolnir_12 44 25 #mj12_find_2
+mjolnir_09 201 355 #mj09_find_1
+mjolnir_09 106 36 #mj09_find_3
+yuno_fild12 232 222 Velho Pescador#kh
+yuno_fild08 196 196 Hanie#kh1
+mjolnir_10 27 258 #mj10_find_5
+dic_dun03 101 139 Túmulo
+cmd_fild04 267 137 Menina da praia
+cmd_fild04 248 86 Marinheiro
+cmd_fild04 188 74 Menina das Algas
+morocc_in 141 67 Vendedor de Armas
+morocc_in 141 60 Vendedor de Armaduras
+morocc_in 132 57 Vendedor de Armas
+mosk_in 21 254 Vendedor de Utilidades
+moscovia 208 182 Vendedor de Avelãs#mos
+moscovia 224 190 #nowinterplz
+moscovia 220 172 Jovem#mos8
+moscovia 234 168 Um homem#mos15
+moscovia 220 191 Agente VIP
+moscovia 226 191 Guia de Moscóvia#02mosc
+moscovia 223 191 Funcionária Kafra
+moscovia 209 197 Oficial do Éden#26
+moscovia 204 188 Jovem#mos5
+moscovia 211 215 Um jovem#mos12
+moscovia 149 112 Homem#mos13
+moscovia 167 97 Senhora#mos6
+moscovia 161 76 Guia de Moscóvia#01mosc
+moscovia 152 71 Vendedor de Frutas
+moscovia 171 71 Berbayeff#npc
+moscovia 166 53 Relações Públicas#1
+moscovia 135 49 Sr. Ibanoff#npc
+moscovia 136 46 Find#ship
+moscovia 135 52 Placa de Aviso#mosk
+moscovia 168 135 Uma mulher#mos10
+mosk_fild01 86 104 Senhor Estranho#npc
+mosk_fild02 198 53 #mos_dun
+mosk_dun01 194 43 Rocha#1-1
+mosk_dun01 170 164 Rocha#1
+mosk_dun01 207 276 Rocha#1-2
+moscovia 233 204 Jovem#mos2
+mosk_dun01 164 191 Rocha#1-3
+mosk_dun02 168 28 Rocha#2-1
+mosk_dun02 268 117 Rocha#2-3
+mosk_dun03 27 131 Rocha#3-2
+mosk_dun03 119 46 Rocha#3-1
+mosk_dun03 153 90 Pântano#mos1
+mosk_dun03 225 233 Pilha de Esqueletos#mag
+moscovia 253 166 Soldado#mos_so1
+moscovia 253 175 Um homem#mos9
+mosk_in 118 66 Soldado#mos_so3
+mosk_in 133 73 Soldado#mos_so5
+glast_01 369 308 Quadro de Avisos#castle
+glast_01 195 273 Seguidora de Hugin#1
+glast_01 195 131 Membro do Grupo do Éden
+gl_church 148 5 Traço Delicado#000005
+gl_church 211 94 Traço Delicado#000008
+gl_church 105 115 Traço Delicado#0000011
+gl_church 126 62 Traço Delicado#000004
+gl_church 158 103 Traço Delicado#000002
+gl_church 158 100 #Clue of traces
+gl_church 143 125 Traço Delicado#0000010
+gl_church 185 72 Traço Delicado#000006
+gl_church 173 88 Traço Delicado#000001
+gl_church 139 90 Traço Delicado#000003
+gl_church 185 125 Traço Delicado#000009
+alberta 116 66 Buzzy Bol Machine#01
+alberta 114 64 Kafra Especial#pRO_Prem
+geffen 126 64 Agente VIP
+geffen 126 64 Agente VIP
+gef_fild08 182 182 #CallGhost
+gef_fild08 182 185 Andarilho 
+new_1-1 53 114 Sprakki#newbe01
+new_1-1 66 114 Boletim Especial
+new_1-1 144 116 Guarda do Campo de Trei
+new_1-1 144 107 Guarda do Campo de Trei
+new_1-2 100 29 Sprakki#newbe05
+new_1-2 100 105 Instrutor Brade#newbe02
+new_1-2 115 120 Jinha#newbe03
+new_1-2 33 172 Chocolati#newbe06
+new_1-2 30 176 Funcionária Kafra#newbe
+new_1-2 33 176 Funcionário Zonda#newbe
+new_1-2 36 176 Soldado
+new_1-3 96 30 Brade#newbe04
+new_1-3 97 41 Espadachim#newbe10
+new_1-3 101 41 Noviço#newbe10
+new_1-3 105 41 Gatuno#newbe10
+new_1-3 109 41 Mercador#newbe10
+new_1-3 113 41 Arqueiro#newbe10
+new_1-3 117 41 Mago#newbe10
+new_1-3 100 50 Vendedor#newbe09
+new_1-3 103 50 Treinador
+new_2-3 96 30 Brade#newbe04
+new_2-3 97 41 Espadachim#newbe10
+new_2-3 101 41 Noviço#newbe10
+new_2-3 105 41 Gatuno#newbe10
+new_2-3 109 41 Mercador#newbe10
+new_2-3 100 50 Vendedor#newbe09
+new_2-3 103 50 Treinador
+new_2-3 113 41 Arqueiro#newbe10
+new_2-3 117 41 Mago#newbe10
+new_2-3 121 41 Bruce#
+new_4-3 96 30 Brade#newbe04
+new_4-3 97 41 Espadachim#newbe10
+new_4-3 101 41 Noviço#newbe10
+new_4-3 105 41 Gatuno#newbe10
+new_4-3 100 50 Vendedor#newbe09
+new_4-3 103 50 Treinador
+new_4-3 109 41 Mercador#newbe10
+new_4-3 113 41 Arqueiro#newbe10
+new_4-3 117 41 Mago#newbe10
+new_4-3 121 41 Bruce#
+alberta_in 75 39 Oficial do Éden#10
+alberta_in 53 43 Mercador
+alberta_in 70 51 Guarnien
+new_3-1 53 114 Sprakki#newbe01
+new_3-1 66 114 Boletim Especial
+new_3-1 144 116 Guarda do Campo de Trei
+new_3-1 144 107 Guarda do Campo de Trei
+new_3-2 100 29 Sprakki#newbe05
+new_3-2 100 105 Instrutor Brade#newbe02
+new_3-2 115 120 Jinha#newbe03
+new_3-2 33 172 Chocolai#newbe06
+new_3-2 30 176 Funcionária Kafra#newbe
+new_3-2 33 176 Funcionário Zonda#newbe
+new_3-2 36 176 Soldado
+new_5-1 53 114 Sprakki#newbe01
+new_5-1 66 114 Boletim Especial
+new_5-1 144 116 Guarda do Campo de Trei
+new_5-1 144 107 Guarda do Campo de Trei
+new_5-2 100 29 Sprakki#newbe05
+new_5-2 100 105 Instrutor Brade#newbe02
+new_5-2 115 120 Jinha#newbe03
+new_5-2 33 172 Chocolati#newbe06
+new_5-2 30 176 Funcionária Kafra#newbe
+new_5-2 33 176 Funcionário Zonda#newbe
+new_5-2 36 176 Soldado
+new_3-3 96 30 Brade#newbe04
+new_3-3 97 41 Espadachim#newbe10
+new_3-3 100 50 Vendedor#newbe09
+new_3-3 101 41 Noviço#newbe10
+new_3-3 105 41 Gatuno#newbe10
+new_3-3 109 41 Mercador#newbe10
+new_3-3 113 41 Arqueiro#newbe10
+new_3-3 117 41 Mago#newbe10
+new_3-3 103 50 Treinador
+new_3-3 121 41 Bruce#
+new_5-3 96 30 Brade#newbe04
+new_5-3 97 41 Espadachim#newbe10
+new_5-3 101 41 Noviço#newbe10
+new_5-3 105 41 Gatuno#newbe10
+new_5-3 109 41 Mercador#newbe10
+new_5-3 113 41 Arqueiro#newbe10
+new_5-3 100 50 Vendedor#newbe09
+new_5-3 103 50 Treinador
+new_5-3 117 41 Mago#newbe10
+new_5-3 121 41 Bruce#
+glast_01 44 363 Guia Jungberg
+moc_fild12 160 372 Hit
+moc_fild12 125 374 Árvore#ep14.3_07
+moc_fild12 113 366 Árvore#ep14.3_06
+moc_fild12 92 345 Árvore#ep14.3_05
+moc_fild12 173 215 Rastros de Batalha#2
+moc_fild11 205 52 Rastros de Batalha#5
+moc_fild11 226 235 Rastros de Batalha#6
+moc_fild11 180 253 Mutt#para03
+moc_fild11 237 273 Ache Bico de Ave#33
+moc_fild12 57 347 Árvore#ep14.3_03
+moc_fild12 160 365 Ashe#3
+moc_para01 112 79 Especialista BK#2nd11
+moc_para01 112 96 Administrador Mihael#pa
+moc_para01 111 83 Ferreiro Torhen#2nd10
+alberta 104 60 Agente VIP
+alberta 120 60 Abra#mall
+alberta 120 53 Mercador Estiloso#new30
+alberta 124 67 Oficial do Éden#4
+alberta 127 64 Guarda Continental#albe
+moc_para01 34 178 Instrutor#moc_para01
+moc_para01 41 169 Reno#2012hat
+moc_para01 48 175 Placa de Missões 86-90
+moc_para01 48 177 Placa de Missões 91-99
+glast_01 240 366 Pensamento de Schmidtz
+gef_fild08 182 185 Andarilho 
+gef_fild08 182 182 #CallGhost
+glast_01 212 273 Artesã Mágica Hugin#pa0
+gef_fild07 108 161 Roda Frog#Frog_Cap
+pay_arche 79 31 Quadro de Avisos#archer
+pay_arche 55 123 Funcionária Kafra
+pay_arche 39 134 Quadro de Avisos#paydun
+pay_arche 41 136 Coral#para05
+pay_arche 122 100 Part-timer
+pay_arche 127 154 Placa#arc
+payon_in02 64 71 Arqueiro
+payon_in02 67 65 Bardo Jet#tu
+pay_arche 130 113 Alquimista da Guilda#tu
+pay_fild07 126 49 Ache Antenas de Inseto#
+geffen 172 52 Goodman
+mjolnir_07 157 25 #mj07_find_6
+mjolnir_09 38 243 #mj09_find_2
+moc_fild12 35 303 Serutero
+cmd_fild08 324 163 Ache Coração de Pedra#3
+alberta 43 49 Mercador Pobre
+alberta 53 39 Mercador
+alberta 97 51 Mercador
+pay_gld 143 160 Palácio Escarlate
+payon 79 171 Friar#G5
+payon 101 190  #paypuzz1
+new_2-1 53 114 Sprakki#newbe01
+new_2-1 66 114 Boletim Especial
+new_2-1 144 116 Guarda do Campo de Trei
+new_2-1 144 107 Guarda do Campo de Trei
+new_2-2 100 29 Sprakki#newbe05
+new_2-2 100 105 Instrutor Brade#newbe02
+new_2-2 115 120 Jinha#newbe03
+new_2-2 33 172 Chocolati#newbe06
+new_2-2 30 176 Funcionária Kafra#newbe
+new_2-2 33 176 Funcionário Zonda#newbe
+new_2-2 36 176 Soldado
+prt_church 173 23 Noviça Chefe
+prt_church 179 15 Sacerdote Praupin
+prt_church 103 76 Hemera
+prt_church 103 71 Kostario
+prt_church 103 78 Oficial do Éden#7
+prontera 232 318 Peco Peco Breeder
+prontera 282 200 Funcionária Kafra
+payon 191 66 Sábio Chifre de Touro
+izlude 119 121 Cuskoal
+izlude 129 118 Dona Risadinha
+izlude 131 116 Quadro de Avisos#izlude
+izlude 150 118 Dega
+izlude 132 136 Ache Cauda de Peixe#33
+izlude 150 143 Kylick
+izlude 164 138 Adestrador
+izlude 171 133 Vendedor de Projéteis#a
+izlude 171 185 Agente Matrimonial#Izlu
+izlude 182 186 Edgar
+izlude 182 192 Odgnalam#iz
+izlude 201 181 Marinheiro
+alberta 190 173 Phelix
+alberta 189 151 Marinheiro
+alberta 195 151 Poch
+alberta 200 151 Odgnalam#albe
+alberta 196 146 Templário#megin2
+alberta 168 138 Capitão Contrabandista
+alberta 167 135 Cozinheiro Auxiliar
+alberta 131 139 Velho Bêbado
+alberta 127 143 Belder
+alberta 117 135 Criança
+alberta 118 157 Kenny#airplane
+alberta 118 160 Vendedor de Projéteis#a
+alberta 93 174 Vovó 
+alberta 98 202 Guarda#s10
+payon 139 68 Homem Infeliz#pa0829
+payon 134 211 Jovem Senhor
+payon 175 226 Kafra Recepcioniosta
+payon 173 238 [Jade]
+payon 244 62 Moonho Ahn
+new_4-1 53 114 Sprakki#newbe01
+new_4-1 66 114 Boletim Especial
+new_4-1 144 116 Guarda do Campo de Trei
+new_4-1 144 107 Guarda do Campo de Trei
+new_4-2 100 29 Sprakki#newbe05
+new_4-2 100 105 Instrutor Brade#newbe02
+new_4-2 115 120 Jinha#newbe03
+new_4-2 33 172 Chocolati#newbe06
+new_4-2 30 176 Funcionária Kafra#newbe
+new_4-2 33 176 Funcionário Zonda#newbe
+new_4-2 36 176 Soldado
+alberta 83 96 Neco
+alberta 102 80 Jhonnita
+payon 236 199 Leablem
+payon 236 199 Leablem
+payon 240 160 Barril#paypuzz4
+payon 236 199 Leablem
+payon 240 160 Barril#paypuzz4
+payon 236 199 Leablem
+payon 240 160 Barril#paypuzz4
+payon 240 160 Barril#paypuzz4
+payon 236 199 Leablem
+payon 240 160 Barril#paypuzz4
+payon 236 199 Leablem
+payon 240 160 Barril#paypuzz4
+payon_in02 58 58 Oficial do Éden#11
+payon 240 160 Barril#paypuzz4
+payon 236 199 Leablem
+pay_gld 137 160 Palácio Escarlate
+payon 240 160 Barril#paypuzz4
+payon 236 199 Leablem
+anthell01 29 264 Clod#para06
+moc_fild12 136 343 Árvore#ep14.3_08
+anthell01 29 264 Clod#para06
+anthell01 29 264 Clod#para06
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_fild12 83 376 Árvore#ep14.3_04
+morocc 201 30 Zaka
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_fild12 83 376 Árvore#ep14.3_04
+morocc 201 30 Zaka
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_fild12 83 376 Árvore#ep14.3_04
+morocc 201 30 Zaka
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_fild12 83 376 Árvore#ep14.3_04
+morocc 201 30 Zaka
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_fild12 83 376 Árvore#ep14.3_04
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_ruins 143 43 Jovem Assassino#07rhea_
+moc_fild12 83 376 Árvore#ep14.3_04
+morocc 54 251 Festeiro#07rhea_19
+morocc 54 190 Mestre de Obras
+morocc 93 144 #Distorted space molco
+morocc 201 30 Zaka
+morocc 265 74 Carpinteiro
+morocc 201 30 Zaka
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_fild12 83 376 Árvore#ep14.3_04
+morocc 201 30 Zaka
+moc_fild12 55 376 Árvore#ep14.3_02
+moc_fild12 83 376 Árvore#ep14.3_04
+morocc 201 30 Zaka
+aldebaran 60 70 Senhorita
+aldebaran 81 61 Catadora de Mariscos
+alde_alche 24 188 Mercador da Guilda
+alde_alche 27 185 Alquimista sênior
+alde_alche 31 186 Vendedor de Livros#alde
+alde_alche 35 186 Membro Alquimista#gen
+alde_alche 38 184 Vendedor de Materiais
+comodo 199 149 Agente VIP
+cmd_in01 79 182 Vendedor de Ferramentas
+comodo 185 153 Kafra Especial#pRO_Prem
+izlude 124 88 Kafra Especial#pRO_Prem
+izlude 134 92 Agente VIP
+aldebaran 114 56 Agente Arruaceiro#nd0
+aldebaran 113 70 Refinador
+geffen_in 110 172 Christopher
+geffen_in 109 170 Mestre Ferreiro#gef
+alde_alche 175 107 Alquimista Misterioso
+alde_alche 13 15 Pesquisador
+alde_alche 101 184 Alquimista Chefe
+alde_alche 175 107 Alquimista Misterioso
+alde_alche 13 15 Pesquisador
+alde_alche 101 184 Alquimista Chefe
+aldebaran 93 80 Jovem Apaixonado
+aldebaran 60 70 Senhorita
+aldebaran 81 61 Catadora de Mariscos
+alde_alche 24 188 Mercador da Guilda
+alde_alche 27 185 Alquimista sênior
+alde_alche 31 186 Vendedor de Livros#alde
+alde_alche 35 186 Membro Alquimista#gen
+alde_alche 38 184 Vendedor de Materiais
+comodo 199 149 Agente VIP
+comodo 185 153 Kafra Especial#pRO_Prem
+cmd_in01 79 182 Vendedor de Ferramentas
+alde_alche 95 184  #Masked Alarm4
+aldebaran 133 109 Soldado de Aldebaran
+cmd_fild07 94 134 Samir
+mjolnir_07 375 233 #mj07_find_4
+mjolnir_07 375 233 #mj07_find_4
+mjolnir_07 375 233 #mj07_find_4
+prontera 48 58 Vendedora de Vegetais
+lighthalzen 147 105 Laqumet#li_02
+lighthalzen 153 86 Emissária de Maroll
+lighthalzen 167 100 Kafra Especial#pRO_Prem
+lighthalzen 167 97 Agente VIP
+lighthalzen 164 100 Funcionária Kafra
+lighthalzen 164 86 Oficial do Éden#21
+moc_para01 172 28 Estagiário de Éden#eden
+moc_para01 172 28 Estagiário de Éden#eden
+moc_para01 172 28 Estagiário de Éden#eden
+moc_para01 172 28 Estagiário de Éden#eden
+rachel 111 143 Agente VIP
+mid_camp 69 144 Gorurug Feroz
+mid_camp 62 125 Ag. da Pata de Gato
+mid_camp 66 122 Henry Clifford
+geffen 91 36 Agente da Guilda#nd1
+geffen 135 64 Porta-voz#gef
+geffen 135 64 Porta-voz#gef
+gef_fild08 211 24 Quadro de Avisos#kobold
+prontera 121 77 Porta-voz#prt
+prt_in 47 141 Tio
+pvp_y_room 62 85 Recepcionista
+pvp_y_room 70 85 Recepcionista
+pvp_y_room 78 85 Recepcionista
+pvp_y_room 86 85 Recepcionista
+prontera 165 194 Gondul
+morocc 154 55 Joalheiro
+morocc 166 54 Joalheira
+morocc 156 76 Açougueiro
+morocc 145 103 Vendedor de Ferramentas
+morocc 171 103 Vendedor de Itens
+morocc 159 107 Dona Risadinha
+morocc 140 90 Vendedor de Bananas
+moc_ruins 52 85 Joalheiro
+moc_ruins 71 139 Vendedora de Anel
+moc_ruins 59 154 Dona Risadinha
+moc_ruins 59 157 Funcionária Kafra
+moc_ruins 61 164 Quadro de Avisos#pyrami
+moc_prydb1 154 128 Yuji
+moc_prydb1 103 54 Gato Suspeito#nightmare
+morocc 154 55 Joalheiro
+morocc 166 54 Joalheira
+morocc 156 76 Açougueiro
+morocc 145 103 Vendedor de Ferramentas
+morocc 159 107 Dona Risadinha
+morocc 140 90 Vendedor de Bananas
+geffen 119 107 Dona Risadinha
+geffen 110 117 Ford#11
+geffen 109 123 Arsulf
+geffen 112 129 Trapesac
+morocc 205 247 Vendedor de Itens
+morocc 151 241 Vendedor de Ferramentas
+moc_ruins 105 62 Jacob#thai
+moc_ruins 107 62 Toni#thai
+moc_ruins 93 53 Vendedor de Itens
+moc_ruins 90 67 Homem Suspeito#1
+moc_ruins 87 103 Sujeito Estranho
+moc_ruins 87 109 Açougueiro
+moc_ruins 81 113 Vendedor de Itens
+moc_ruins 66 164 Treinador Gatuno#T
+moc_ruins 68 164 Oficial do Éden#2
+moc_prydb1 39 129 Gatuna Ajudante
+prontera 221 209 Negociadora de Ovos#prt
+prontera 248 212 Garoto Ocupado#prt
+pvp_n_2-5 99 99 Desafio de Clãs#trainin
+payon 174 113 Porta-voz#pay
+moc_prydb1 42 133 Thief Guildsman
+moc_prydb1 53 126 Oficial do Éden#9
+morocc 145 82 Emissária de Maroll
+morocc 142 100 Viajante de Cheffênia
+aldebaran 177 179 Decorador de Carrinhos
+aldebaran 86 228 Criança
+aldebaran 58 225 Funcionária Kafra#lt3
+aldeba_in 142 238 Kafra Bianca
+aldeba_in 155 240 Funcionária Kafra#lt3
+aldeba_in 88 161 Funcionária Kafra
+aldeba_in 84 166 Kafra Denise
+aldeba_in 96 181 Funcionária Kafra
+aldebaran 177 179 Decorador de Carrinhos
+aldebaran 86 228 Criança
+aldebaran 58 225 Funcionária Kafra#lt3
+aldebaran 54 223 Sinal
+aldeba_in 142 238 Kafra Bianca
+aldeba_in 155 240 Funcionária Kafra#lt3
+aldeba_in 88 161 Funcionária Kafra
+aldeba_in 84 166 Kafra Denise
+aldeba_in 96 181 Funcionária Kafra
+morocc 152 167 Stair
+glast_01 204 273 Hugin
+morocc 176 101 Administrador
+moc_para01 31 14 #atnevt01
+aldebaran 66 213 Lady#megin
+aldebaran 66 213 Lady#megin
+aldebaran 66 213 Lady#megin
+aldebaran 54 238 Funcionária Kafra

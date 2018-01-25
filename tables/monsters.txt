@@ -1,0 +1,283 @@
+1271 Crocodilo
+1118 Flora
+1008 Pupa
+1007 Fabre
+1063 Lunático
+1018 Creamy
+1002 Poring
+1262 Dragão Mutante
+1323 Lontra
+1074 Molusco
+1266 Estrela do Mar
+1391 Pingu
+1073 Caranguejo
+1040 Golem
+1254 Raggler
+1302 Ilusão das Trevas
+1654 Armeyer Dinze
+1202 Fendark
+1012 Sapo de Rodda
+1089 Sapo-Cururu
+1058 Metaller
+2060 Alice
+2034 Filhote de Lobo
+1687 Grove
+1034 Sapo de Thara
+1064 Megalodon
+1255 Nereida
+1268 Cavaleiro Sanguinário
+2344 Dama dos Desejos
+1068 Hidra
+1049 Picky
+1009 Condor
+1113 Drops
+1918 Sombra da Inveja
+##2308 Oborou
+1999 Larva de Centopéia
+1989 Leão da Montanha
+1988 Nepenthes
+1052 Rocker
+1167 Bebe Selvagem
+1138 Magnólia
+2024 Golem de Bradium
+1986 Tatacho
+1987 Centopéia
+2084 Scaraba Chifres Duplos
+2083 Scaraba Chifre
+2089 Ovo de Chifres Duplos
+2088 Ovo de Scaraba Chifre
+2163 Scaraba Galhado
+2167 Ovo de Chifres Duplos
+2162 Scaraba de Chifre Duplo
+2161 Scaraba Chifre
+2166 Ovo de Scaraba Chifre
+2164 Scaraba Ancinho
+2168 Ovo de Scaraba Galhado
+2169 Ovo de Scaraba Ancinho
+1851 Soldado Aliado
+2171 Scaraba Ancinho
+2173 Scaraba de Chifre Duplo
+1782 Roween
+1030 Anaconda
+1627 Anopheles
+1680 Vento da Colina
+1106 Lobo do Deserto
+1107 Filhote de Lobo
+1376 Harpia
+1372 Bode
+1386 Rochoso
+1383 Estrondo
+1385 Deletério
+1367 Labareda
+1379 Pesadelo Sombrio
+1384 Exterminador
+1382 Diabolik
+1387 Ferrão
+1785 Atroce
+1368 Planta Carnívora
+1388 ArchAngeling
+1744 WRosa Selvagem
+1741 Cookie
+1742 Carat
+1443 Soldadinho de Chumbo
+1791 Galion
+1072 Kaho
+1366 Golem de Lava
+1381 Grizzly
+1433 Deviruchi
+1582 Deviling
+1595 Marin
+1743 Presente
+1062 Poring Noel
+1031 Poporing
+1273 Senhora Orc
+1023 Guerreiro Orc
+1153 Orc Zumbi
+1152 Orc Esqueleto
+1042 Chon Chon de Aço
+1005 Familiar
+1084 Cogumelo Negro
+1082 Planta Branca
+1111 Drainliar
+1090 Mastering
+2172 Scaraba Chifre
+1051 Besouro-Ladrão
+1174 Percevejo
+1056 Fumacento
+1048 Ovo de Besouro-Ladrão
+2347 Eddga
+2058 Mímico
+2346 Ktullanux
+2038 Valquíria
+1010 Salgueiro
+1060 Pé Grande
+1103 Caramelo
+1011 ChonChon
+1096 Angeling
+1114 Poeira
+1139 Louva-a-Deus
+1995 Pinguicula
+2047 Naga
+2049 Golem
+2015 Pinguicula Sombria
+1993 Naga
+1992 Cornus
+1994 Vespa Vagalume
+1156 Petite Voador
+1037 Sorrateiro
+1155 Petite
+1014 Esporo
+1025 Jibóia
+1024 Rabo de Verme
+1613 Metaling
+1619 Porcellio
+1085 Cogumelo Vermelho
+1104 Koko
+1128 Besouro-Chifre
+1033 Salgueiro Ancião
+1164 Réquiem
+1178 Zerom
+1146 Matyr
+1140 Marduk
+1098 Anubis
+1149 Minorous
+1154 Pasana
+1191 Mímico
+1920 Sombra da Vaidade
+2165 Rainha Scaraba
+2170 Scaraba Galhado
+2308 Oborou
+1919 Sombra da Gula
+1046 Doppelganger
+1427 Pesadelo
+1634 Seyren Windsor
+1094 Ambernite
+1921 Sombra da Ira
+1921 Sombra da Ira
+2325 Bafomé Jr
+1195 Rideword
+1269 Relógio
+1199 Punk
+1216 Penomena
+1209 Cãibra
+1102 Bathory
+1131 Coringa
+1179 Sussurro
+1193 Alarme
+1377 Ancião
+1019 PecoPeco
+1047 Ovo de PecoPeco
+1055 Muka
+1050 Picky
+1004 Zangão
+1100 Argos
+1494 Encouraçado
+1083 Planta Brilhante
+1760 Ferus
+1509 Lude
+1001 Escorpião
+1656 Kavach Ícaro
+1083 Planta Brilhante
+1681 Gemini-S58
+1639 Kathryne Keyron
+1126 Goblin
+1322 Coelho
+1145 Martin
+1656 Kavach Ícaro
+1777 Titã de Gelo
+1515 Filhote Hatii
+1830 Arqueiro Guardião
+1838 Golpeador
+1194 Arclouse
+1764 Skeggiold
+1142 Esfera Marinha
+1076 Esqueleto
+1261 Rosa Selvagem
+1275 Alice
+1737 Aliza
+1121 Gierath
+1121 Gierath
+1278 Golem Estalactítico
+1882 Baba-Yaga
+1077 Esporo Venenoso
+2092 Dolomedes
+1555 Novinha Terrorista.~*
+1754 Skeggiold
+1369 Grand Peco
+3087 Lamento de Nidhogg
+1406 Kapha
+1653 Wickebine Tres
+1203 Mysteltainn
+1621 Nuvem Venenosa
+1622 Ursinho
+1620 Nuvem Tóxica
+1378 Pungus
+1616 Minérios
+1628 Holden
+1035 Mosca Caçadora
+1160 Piere
+1699 Mímico Antigo
+1493 Dríade
+1318 Aquecedor
+1258 Goblin Arqueiro
+1784 Stapo
+1682 Remover
+1211 Escaravelho
+1281 Verme Sábio
+1197 Zumbi Prisioneiro
+1404 Miyabi Ningyo
+1281 Verme Sábio
+1635 Eremes Guile
+1099 Argiope
+1380 Furador
+1636 Howard Alt-Eisen
+1297 Múmia Anciã
+1837 Imp
+1967 Egnigem Cenia
+1869 Crânio Flamejante
+1123 Goblin
+1134 Kobold
+1584 Tamruan
+1117 Druida Maligno
+1095 Andre
+1417 Zipper
+1713 Acidus
+1676 Venatu
+1866 Cão Infernal
+1129 Horong
+1015 Zumbi
+1133 Kobold
+1081 Planta Amarela
+1249 Presente
+1769 Agav
+1054 Besouro-Ladrão Macho
+3976 Fada
+1637 Margaretha Sorin
+1880 Leshij
+1881 Les
+1884 Mavka
+1883 Kikimora
+1886 Mavka
+1885 Gorynych
+1253 Gárgula
+1080 Planta Verde
+1192 Alma Penada
+1291 Aparição
+1219 Cavaleiro do Abismo
+1184 Fabre
+1079 Planta Azul
+1692 Breeze
+1162 Rafflesia
+1215 Talo de Verme
+1132 Khalitzburg
+1078 Planta Vermelha
+1166 Selvagem
+1097 Ovo de Andre
+1105 Deniro
+1926 Jakk Fugitivo
+1926 Jakk Fugitivo
+1176 Vitata
+1706 Maero de Thanatos
+1032 Verit
+1041 Múmia
+1163 Raydric
