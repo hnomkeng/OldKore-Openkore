@@ -198,6 +198,7 @@ sub new {
 		'0135' => ['vender_buy_fail', 'v2 C', [qw(index amount fail)]],
 		'0136' => ['vending_start'],
 		'0137' => ['shop_sold', 'v2', [qw(number amount)]],
+		'09E5' => ['shop_sold_long', 'v2 a4 V2', [qw(number amount charID time zeny)]], #thanks Lututui
 		'0139' => ['monster_ranged_attack', 'a4 v5', [qw(ID sourceX sourceY targetX targetY range)]],
 		'013A' => ['attack_range', 'v', [qw(type)]],
 		'013B' => ['arrow_none', 'v', [qw(type)]],
@@ -3451,6 +3452,72 @@ sub shop_sold {
 		}
 	}
 }##end shop_sold()
+
+
+
+sub shop_sold_long {
+	my ($self, $args) = @_;
+
+	# sold something
+	my $number = $args->{number};
+	my $amount = $args->{amount};
+	my $earned = $args->{zeny};
+	my $charID = getHex($args->{charID});
+	my $when = $args->{time};
+
+	$articles[$number]{sold} += $amount;
+	$shopEarned += $earned;
+	$articles[$number]{quantity} -= $amount;
+	
+	my $item = $articles[$number]{name};
+
+		$itemsSell{$charID}{$item}{name} = $item;
+		$itemsSell{$charID}{$item}{amount} += $amount;
+		$itemsSell{$charID}{$item}{zeny} += $earned;
+		$itemsSell{$charID}{$item}{when} = getFormattedDate($when);
+
+		#we dont known but sometimes server dont reply... FIX 
+		for(my $maxTries =0; $maxTries < 5; $maxTries++){
+		$messageSender->sendGetCharacterName($args->{charID});
+		if($itemsSell{$charID}{$item}{BuyerName}){
+		
+		last;
+		}
+		
+		
+		}
+		
+		
+		my $msg = TF("[%s] Sold: %s x %s - %sz (Buyer charID: %s)\n", getFormattedDate($when), $articles[$number]{name}, $amount, $earned, $itemsSell{$charID}{$item}{BuyerName});
+	
+		shopLog($msg);
+		message($msg, "sold");
+		
+		
+		
+	# Call hook before we possibly remove $articles[$number] or
+	# $articles itself as a result of the sale.
+	Plugins::callHook(
+		'vending_item_sold',
+		{
+			'vendShopIndex' => $number,
+			'amount' => $amount,
+			'vendArticle' => $articles[$number], #This is a hash
+			'buyerCharID' => $args->{charID},
+			'zenyEarned' => $earned,
+			'time' => $when,
+			'packetType' => "long",
+		}
+	);
+
+	if ($articles[$number]{quantity} < 1) {
+		message TF("sold out: %s\n", $articles[$number]{name}), "sold";
+		if (!--$articles){
+			message T("Items have been sold out.\n"), "sold";
+			closeShop();
+		}
+	}
+}
 
 
 # TODO:

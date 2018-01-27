@@ -1963,6 +1963,26 @@ sub cmdExp {
 			close(F);
 		}
 	}
+	if ($arg1 eq "shop") {
+		$knownArg = 1;
+
+		$msg .= center(T(" Log Shop "), 40, '-') ."\n".
+			T("Nome                   Qtde   Lucro     Data             Comprador    \n");
+		for my $key (sort keys %itemsSell) {
+			next unless $itemsSell{$key};
+			for my $keyItem (sort keys %{$itemsSell{$key}}) {
+			$msg .= swrite(
+				"@<<<<<<<<<<<<<<<<<<<<< @<<<<< @<<<<<<<<< @<<<<<<<<<<<<<<< @<<<<<<<<<<<<<",
+				[$itemsSell{$key}{$keyItem}{name}, $itemsSell{$key}{$keyItem}{amount}, $itemsSell{$key}{$keyItem}{zeny}, $itemsSell{$key}{$keyItem}{when}, $itemsSell{$key}{$keyItem}{BuyerName}]);
+		}
+		}
+
+		$msg .= ('-'x36) . "\n";
+		message $msg, "list";
+		
+	
+		
+	}
 
 	if (!$knownArg) {
 		error T("Syntax error in function 'exp' (Exp Report)\n" .

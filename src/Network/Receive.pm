@@ -2763,6 +2763,14 @@ sub character_name {
 
 	$name = bytesToString($args->{name});
 	debug "Character name received: $name\n";
+	
+	for my $item (sort keys %itemsSell) {
+		for my $keyItem (sort keys %{$itemsSell{$item}}) {
+			if(!$itemsSell{$item}{$keyItem}{BuyerName}) {
+				$itemsSell{$item}{$keyItem}{BuyerName} = $name;
+			}
+	}
+	}
 }
 
 sub character_status {
