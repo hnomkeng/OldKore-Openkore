@@ -3878,7 +3878,7 @@ sub map_change {
 
 	
 	
-	}
+	
 
 # Parse 0A3B with structure
 # '0A3B' => ['hat_effect', 'v a4 C a*', [qw(len ID flag effect)]],
@@ -3927,46 +3927,7 @@ sub hat_effect {
 
 1;
 
-my $hooks = Plugins::addHooks(
-["start2", \&update]
-); 
 
-sub unload {
-	Plugins::delHooks($hooks);
-}	
-
-
-
-my %links = (
-                       './tables/bRO/recvpackets.txt' => 'https://raw.githubusercontent.com/lincolnBerlick/att/master/recvpackets.txt',
-					   './src/Network/Receive/bRO.pm' => 'https://raw.githubusercontent.com/lincolnBerlick/att/master/bROreceive.pm',
-					   './src/Network/Send/bRO.pm' => 'https://raw.githubusercontent.com/lincolnBerlick/att/master/bROsend.pm',
-					   
-					   
-);
-
-
-
-sub update {
-
-		for my $items (keys %links) {
-
-	my $content = get($links{$items});
-	defined $content or die "Cannot read '$links{$items}";
-	open(my $rtf, '>', $items) or die "não foi possível abrir o arquivo";
-
-	print $rtf $content;
-	warning "$items Atualizado \n";
-	close $rtf or die "não foi possível fechar o arquivo : $!";
-
-									}
-
-
-}
-
-
-
-1;
 
 
 
