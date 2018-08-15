@@ -46,6 +46,7 @@ sub new {
 		'0068' => ['char_delete'], # TODO
 		'0072' => ['map_login', 'a4 a4 a4 V C', [qw(accountID charID sessionID tick sex)]],
 		'007D' => ['map_loaded'], # len 2
+		'0447' => ['unfreeze'],
 		'007E' => ['sync', 'V', [qw(time)]],
 		'0085' => ['character_move', 'a3', [qw(coords)]],
 		'0089' => ['actor_action', 'a4 C', [qw(targetID type)]],
