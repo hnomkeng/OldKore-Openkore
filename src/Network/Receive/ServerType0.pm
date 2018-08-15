@@ -1170,6 +1170,7 @@ sub map_loaded {
 	$char->{pos_to} = {%{$char->{pos}}};
 	message(TF("Your Coordinates: %s, %s\n", $char->{pos}{x}, $char->{pos}{y}), undef, 1);
 
+	$messageSender->sent_unfreeze();
 	$messageSender->sendIgnoreAll("all") if ($config{ignoreAll});
 	$messageSender->sendRequestCashItemsList() if ($masterServer->{serverType} eq 'bRO'); # tested at bRO 2013.11.30, request for cashitemslist
 	$messageSender->sendCashShopOpen() if ($config{whenInGame_requestCashPoints});
