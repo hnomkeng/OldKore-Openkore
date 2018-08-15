@@ -1,14 +1,3 @@
-package AutoUpDate;
-
-use strict;
-use warnings;
-use utf8;
-use Log qw(message warning);
-use File::Fetch;
-use File::Copy;
-use LWP::Simple;
-
-Plugins::register("AutoUpDate", "Automatizar atualização", \&unload);
 #########################################################################
 #  OpenKore - Server message parsing
 #
