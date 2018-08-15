@@ -1130,4 +1130,16 @@ sub sendProduceMix {
 	debug "Sent Forge, Produce Item: $ID\n" , 2;
 }
 
+	sub sent_unfreeze {
+	
+	my ($self) = @_;
+
+	my $sent = $self->reconstruct({
+		switch => 'unfreeze',
+	});
+
+	$self->sendToServer($sent);
+}
+	
+
 1;
