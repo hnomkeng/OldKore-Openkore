@@ -60,6 +60,8 @@ sub new {
 	my $self = $class->SUPER::new();
 
 	$self->{packet_list} = {
+	
+		'0AC7' => ['map_changed', 'Z16 v2 a4 v a128', [qw(map x y IP port ipMap)]], 
 		'0ADE' => ['warning_overweight', 'v V', [qw(len weight_percent)]],
 		'0AC5' => ['received_character_ID_and_Map', 'a4 Z16 a4 v a128', [qw(charID mapName mapIP mapPort Ip2port)]],
 		
@@ -2049,6 +2051,8 @@ sub map_changed {
 		x => $args->{x},
 		y => $args->{y}
 	);
+	
+	
 	$char->{pos} = {%coords};
 	$char->{pos_to} = {%coords};
 
@@ -2058,9 +2062,14 @@ sub map_changed {
 	}
 	AI::SlaveManager::setMapChanged ();
 	$ai_v{portalTrace_mapChanged} = time;
-
-	$map_ip = makeIP($args->{IP});
-	$map_port = $args->{port};
+	
+	if($args->{'ipMap'} =~ /.*\:\d+/){
+		($map_ip) = $args->{ipMap} =~ /([\s\S]*)\:/;
+		$map_port = $args->{port};
+	}	else {
+		$map_ip = makeIP($args->{IP});
+		$map_port = $args->{port};
+	}
 	message(swrite(
 		"---------Map  Info----------", [],
 		"MAP Name: @<<<<<<<<<<<<<<<<<<",
