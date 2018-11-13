@@ -259,33 +259,45 @@ sub received_characters_unpackString {
 
 sub parse_account_server_info {
 	my ($self, $args) = @_;
-
-	if (length $args->{lastLoginIP} == 4 && $args->{lastLoginIP} ne "\0"x4) {
-		$args->{lastLoginIP} = inet_ntoa($args->{lastLoginIP});
-	} else {
-		delete $args->{lastLoginIP};
-	}
-
+	
+	
+	
+		
+			
 	@{$args->{servers}} = map {
 		my %server;
-		@server{qw(ip port name users display)} = unpack 'a4 v Z20 v2 x2', $_;
+		@server{qw(ip port name users state property ip_port)} = unpack 'a4 v Z20 v3 a128', $_;
+		
+		if (length $args->{lastLoginIP} == 4 && $args->{lastLoginIP} ne "\0"x4) {
+		$args->{lastLoginIP} = inet_ntoa($args->{lastLoginIP});
+		} else {
+			delete $args->{lastLoginIP};
+		}
+		
 		if ($masterServer && $masterServer->{private}) {
 			$server{ip} = $masterServer->{ip};
-		} else {
-			$server{ip} = inet_ntoa($server{ip});
+			
+			}else {
+				($server{ip}) = $server{ip_port} =~ /([\s\S]*)\:/;
 		}
+		
 		$server{name} = bytesToString($server{name});
 		\%server
-	} unpack '(a32)*', $args->{serverInfo};
-}
+		
+	} unpack '(a'. 160 .')*', $args->{serverInfo};
+	
+	
+}	
 
 sub reconstruct_account_server_info {
+my ($self, $args) = @_;
+
 	my ($self, $args) = @_;
 
 	$args->{lastLoginIP} = inet_aton($args->{lastLoginIP});
 
-	$args->{serverInfo} = pack '(a32)*', map { pack(
-		'a4 v Z20 v2 x2',
+	$args->{serverInfo} = pack '(a'. 160 .')*', map { pack(
+		'a4 v Z20 v3 a128',
 		inet_aton($_->{ip}),
 		$_->{port},
 		stringToBytes($_->{name}),
@@ -3629,6 +3641,8 @@ sub item_appeared {
 
 }
 
+
+
 sub item_exists {
 	my ($self, $args) = @_;
 	return unless changeToInGameState();
@@ -3914,13 +3928,13 @@ sub hat_effect {
 	}
 }
 
+
+	sub warning_overweight {
+	my ($self, $args) = @_;
+
+	
+	
+	}
+	
+
 1;
-
-
-
-
-
-
-
-
-
