@@ -60,7 +60,11 @@ sub new {
 	my $self = $class->SUPER::new();
 
 	$self->{packet_list} = {
-		'0069' => ['account_server_info', 'x2 a4 a4 a4 a4 a26 C a*', [qw(sessionID accountID sessionID2 lastLoginIP lastLoginTime accountSex serverInfo)]],
+		'0ADE' => ['warning_overweight', 'v V', [qw(len weight_percent)]],
+		'0AC5' => ['received_character_ID_and_Map', 'a4 Z16 a4 v a128', [qw(charID mapName mapIP mapPort Ip2port)]],
+		
+		'0AC9' => ['account_server_info', 'v a4 a4 a4 a4 a26 C a6 a*', [qw(len sessionID accountID sessionID2 lastLoginIP lastLoginTime accountSex unknown serverInfo)]],
+		'0AC4' => ['account_server_info', 'v a4 a4 a4 a4 a26 C x17 a*', [qw(len sessionID accountID sessionID2 lastLoginIP lastLoginTime accountSex serverInfo)]],
 		'006A' => ['login_error', 'C Z20', [qw(type date)]],
 		'006B' => ['received_characters', 'v C3 a*', [qw(len total_slot premium_start_slot premium_end_slot charInfo)]], # struct varies a lot, this one is from XKore 2
 		'006C' => ['login_error_game_login_server'],
@@ -69,7 +73,6 @@ sub new {
 		'006E' => ['character_creation_failed', 'C' ,[qw(type)]],
 		'006F' => ['character_deletion_successful'],
 		'0070' => ['character_deletion_failed'],
-		'0071' => ['received_character_ID_and_Map', 'a4 Z16 a4 v', [qw(charID mapName mapIP mapPort)]],
 		'0072' => ['received_characters', 'v a*', [qw(len charInfo)]], # struct unknown, this one is from XKore 2
 		'0073' => ['map_loaded', 'V a3', [qw(syncMapSync coords)]],
 		'0075' => ['changeToInGameState'],
@@ -3104,13 +3107,12 @@ sub received_character_ID_and_Map {
 	message T("Received character ID and Map IP from Character Server\n"), "connection";
 	$net->setState(4);
 	undef $conState_tries;
-	$charID = $args->{charID};
+	$charID = $args->{charID};	
 
 	if ($net->version == 1) {
 		undef $masterServer;
 		$masterServer = $masterServers{$config{master}} if ($config{master} ne "");
 	}
-
 	my ($map) = $args->{mapName} =~ /([\s\S]*)\./; # cut off .gat
 	my $map_noinstance;
 	($map_noinstance, undef) = Field::nameToBaseName(undef, $map); # Hack to clean up InstanceID
@@ -3126,7 +3128,8 @@ sub received_character_ID_and_Map {
 		}
 	}
 
-	$map_ip = makeIP($args->{mapIP});
+	($map_ip) = $args->{Ip2port} =~ /([\s\S]*)\:/; #cut all after :
+	#makeIP($args->{mapIP});
 	$map_ip = $masterServer->{ip} if ($masterServer && $masterServer->{private});
 	$map_port = $args->{mapPort};
 	message TF("----------Game Info----------\n" .
@@ -4694,6 +4697,8 @@ sub vender_items_list {
 	my $msg = $args->{RAW_MSG};
 	my $msg_size = $args->{RAW_MSG_SIZE};
 	my $headerlen;
+	my $item_pack = $self->{vender_items_list_item_pack} || 'V v2 C v C3 a8';
+	my $item_len = length pack $item_pack;
 
 	# a hack, but the best we can do now
 	if ($args->{switch} eq "0133") {
@@ -4710,9 +4715,9 @@ sub vender_items_list {
 	my $player = Actor::get($venderID);
 
 	message TF("%s\n" .
-		"#   Name                                      Type        Amount          Price\n",
-		center(' Vender: ' . $player->nameIdx . ' ', 79, '-')), ($config{showDomain_Shop}?$config{showDomain_Shop}:"list");
-	for (my $i = $headerlen; $i < $args->{RAW_MSG_SIZE}; $i+=22) {
+		"#   Name                                      Type           Amount       Price\n",
+		center(' Vender: ' . $player->nameIdx . ' ', 79, '-')), "list";
+	for (my $i = $headerlen; $i < $args->{RAW_MSG_SIZE}; $i+=$item_len) {
 		my $item = {};
 		my $index;
 
@@ -4724,7 +4729,7 @@ sub vender_items_list {
 		$item->{identified}, # should never happen
 		$item->{broken}, # should never happen
 		$item->{upgrade},
-		$item->{cards})	= unpack('V v2 C v C3 a8', substr($args->{RAW_MSG}, $i, 22));
+		$item->{cards})	= unpack($item_pack, substr($args->{RAW_MSG}, $i, $item_len));
 
 		$item->{name} = itemName($item);
 		$venderItemList[$index] = $item;
@@ -4744,11 +4749,11 @@ sub vender_items_list {
 		});
 
 		message(swrite(
-			"@<< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<< @>>>>> @>>>>>>>>>>>>z",
-			[$index, $item->{name}, $itemTypes_lut{$item->{type}}, formatNumber($item->{amount}), formatNumber($item->{price})]),
-			($config{showDomain_Shop}?$config{showDomain_Shop}:"list"));
+			"@<< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<< @>>>>> @>>>>>>>>>z",
+			[$index, $item->{name}, $itemTypes_lut{$item->{type}}, $item->{amount}, formatNumber($item->{price})]),
+			"list");
 	}
-	message("-------------------------------------------------------------------------------\n", ($config{showDomain_Shop}?$config{showDomain_Shop}:"list"));
+	message("-------------------------------------------------------------------------------\n", "list");
 
 	Plugins::callHook('packet_vender_store2', {
 		venderID => $venderID,
@@ -4784,6 +4789,8 @@ sub vending_start {
 
 	my $msg = $args->{RAW_MSG};
 	my $msg_size = unpack("v1",substr($msg, 2, 2));
+	my $item_pack = $self->{vender_items_list_item_pack_self} || $self->{vender_items_list_item_pack} || 'V v2 C v C3 a8';
+	my $item_len = length pack $item_pack;
 
 	#started a shop.
 	message TF("Shop '%s' opened!\n", $shop{title}), "success";
@@ -4793,33 +4800,26 @@ sub vending_start {
 
 	# FIXME: Read the packet the server sends us to determine
 	# the shop title instead of using $shop{title}.
-	my $display = center(" $shop{title} ", 79, '-') . "\n" .
-		T("#  Name                                       Type        Amount          Price\n");
-	for (my $i = 8; $i < $msg_size; $i += 22) {
-		my $number = unpack("v1", substr($msg, $i + 4, 2));
-		my $item = $articles[$number] = {};
-		$item->{nameID} = unpack("v1", substr($msg, $i + 9, 2));
-		$item->{quantity} = unpack("v1", substr($msg, $i + 6, 2));
-		$item->{type} = unpack("C1", substr($msg, $i + 8, 1));
-		$item->{identified} = unpack("C1", substr($msg, $i + 11, 1));
-		$item->{broken} = unpack("C1", substr($msg, $i + 12, 1));
-		$item->{upgrade} = unpack("C1", substr($msg, $i + 13, 1));
-		$item->{cards} = substr($msg, $i + 14, 8);
-		$item->{price} = unpack("V1", substr($msg, $i, 4));
+	message TF("%s\n" .
+		"#  Name                                          Type        Amount       Price\n",
+		center(" $shop{title} ", 79, '-')), "list";
+	for (my $i = 8; $i < $msg_size; $i += $item_len) {
+	    my $item = {};
+	    @$item{qw( price number quantity type nameID identified broken upgrade cards options )} = unpack $item_pack, substr $msg, $i, $item_len;
 		$item->{name} = itemName($item);
+	    $articles[delete $item->{number}] = $item;
 		$articles++;
 
 		debug ("Item added to Vender Store: $item->{name} - $item->{price} z\n", "vending", 2);
 
-		$display .= swrite(
-			"@< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<< @>>>>> @>>>>>>>>>>>>z",
-			[$articles, $item->{name}, $itemTypes_lut{$item->{type}}, formatNumber($item->{quantity}), formatNumber($item->{price})]);
+		message(swrite(
+			"@< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<< @>>>>> @>>>>>>>>>z",
+			[$articles, $item->{name}, $itemTypes_lut{$item->{type}}, $item->{quantity}, formatNumber($item->{price})]),
+			"list");
 	}
-	$display .= ('-'x79) . "\n";
-	message $display, "list";
+	message(('-'x79)."\n", "list");
 	$shopEarned ||= 0;
 }
-
 sub mail_refreshinbox {
 	my ($self, $args) = @_;
 
