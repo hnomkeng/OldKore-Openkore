@@ -60,7 +60,9 @@ sub new {
 	my $self = $class->SUPER::new();
 
 	$self->{packet_list} = {
-	
+
+		'0A28' => ['open_store_status', 'C', [qw(flag)]],
+		'0A37' => ['inventory_item_added', 'v3 C3 a8 V C2 a4 v a25', [qw(index amount nameID identified broken upgrade cards type_equip type fail expire unknown options)]],
 		'0AC7' => ['map_changed', 'Z16 v2 a4 v a128', [qw(map x y IP port ipMap)]], 
 		'0ADE' => ['warning_overweight', 'v V', [qw(len weight_percent)]],
 		'0AC5' => ['received_character_ID_and_Map', 'a4 Z16 a4 v a128', [qw(charID mapName mapIP mapPort Ip2port)]],
@@ -1901,6 +1903,7 @@ sub whisper_list {
 	debug "whisper_list: @whisperList\n", "parseMsg";
 }
 
+
 sub inventory_item_added {
 	my ($self, $args) = @_;
 
@@ -1927,7 +1930,6 @@ sub inventory_item_added {
 			} elsif ($args->{switch} eq '02D4') {
 				$item->{expire} = $args->{expire} if (exists $args->{expire}); #a4 or V1 unpacking?
 			}
-			$item->{options} = $args->{options};
 			$item->{name} = itemName($item);
 			$char->inventory->add($item);
 		} else {
@@ -1971,6 +1973,7 @@ sub inventory_item_added {
 		message TF("Cannot pickup item (failure code %d)\n", $fail), "drop";
 	}
 }
+
 
 sub inventory_items_nonstackable {
 	my ($self, $args) = @_;
@@ -5736,7 +5739,19 @@ sub special_item_obtain {
 		warning TF("%s has got %s (from Unknown type %d).\n", $holder, $item_name, $args->{type}), 'schat';
 	}
 }
-
+sub open_store_status {
+	my ($self, $args) = @_;
+	
+	if ($args->{flag} == 0) {
+		message T("Store set up succesfully\n"), 'success';
+		
+		Plugins::callHook('open_store_success');
+	} else {
+		error TF("Failed setting up shop with error code %d\n", $args->{flag});
+		
+		Plugins::callHook('open_store_fail', { flag => $args->{flag} });
+	}
+}
 # TODO
 sub buyer_items
 {
